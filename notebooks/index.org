@@ -26,9 +26,14 @@ Knuth作のSATソルバーや関連するプログラムは，以下に置かれ
 
 ** Knuth版プログラムの利用方法
 
-まず，教科書4ページの式(6) [[../prog/rivest-sat.sat][rivest-sat.sat]] に対してKnuth作のSATソルバー sat13 を実行してみる．
+まず prog フォルダに移動する．
 #+BEGIN_SRC bash
-sat13 < ~/prog/rivest-unsat.sat
+cd ~/prog
+#+END_SRC
+
+教科書4ページの式(6) [[../prog/rivest-sat.sat][rivest-sat.sat]] に対してKnuth作のSATソルバー sat13 を実行してみる．
+#+BEGIN_SRC bash
+sat13 < rivest-unsat.sat
 #+END_SRC
 
 以下のような出力結果が得られるはずだ．
@@ -53,7 +58,7 @@ Altogether 301+670 mems, 5804 bytes, 3 nodes, 3 clauses learned (ave 1.3->1.3), 
 
 次に，教科書4ページの式(7) [[../prog/rivest-sat.sat][rivest-sat.sat]] に対しても同様に実行してみる．
 #+BEGIN_SRC bash
-sat13 < ~/prog/rivest-sat.sat
+sat13 < rivest-sat.sat
 #+END_SRC
 
   - 解の値割当てを表す "=3 ~1 2 4=" 以外の行は，標準エラーに出力されている．

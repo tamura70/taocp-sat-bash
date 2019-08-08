@@ -3,6 +3,11 @@
 
 * グラフ彩色 (Coloring a graph)
 
+まず prog フォルダに移動する．
+#+BEGIN_SRC bash
+cd ~/prog
+#+END_SRC
+
 10次のMcGregorグラフを4彩色するには以下のようにする．
 #+BEGIN_SRC bash
 mcgregor-graph 10
