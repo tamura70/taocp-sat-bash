@@ -4,7 +4,7 @@
 * はじめに
 Donald E. Knuth]] 先生の名著 [[https://www-cs-faculty.stanford.edu/~knuth/taocp.html][The Art of Computer Programming]] (TAOCP)の
 第4巻 Combinatorial Algorithms 中の 7.2.2.2 節 Satisfiability のプログラム等を提供しています．
-プログラムは， [[http://jupyter.org][Jupyter]] ノートブック ([[https://almond.sh][Almond]] Scala kernelを利用)から実行可能です．
+プログラムは， [[http://jupyter.org][Jupyter]] ノートブックから実行可能です．
 
 教科書の内容の補足については，以下を参照してください．
 
@@ -18,7 +18,7 @@ Donald E. Knuth]] 先生の名著 [[https://www-cs-faculty.stanford.edu/~knuth/t
 
 * プログラム
 ** Knuth版プログラム
-Knuth作のSATソルバーや関連するプログラムは，以下に置かれている．
+Knuth作のSATソルバーや関連するプログラムは以下から入手可能である．
   - [[https://www-cs-faculty.stanford.edu/~knuth/programs.html]]
 
 ここでは，以下のWebページのようにコンパイルし， =.local/bin/= にインストールしている．
