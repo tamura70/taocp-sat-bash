@@ -2,12 +2,10 @@
 #+AUTHOR: 田村直之
 
 * 厳密被覆 (Exact covering)
-Scala kernelからのプログラム実行のため，まず以下の関数を定義する．
-#+INCLUDE: "setup.scala" src scala
 
 $\textit{langford}(n)$ の厳密被覆問題を出力するプログラムは [[../knuth/pdf/langford.pdf][langford]] である．
-#+BEGIN_SRC scala
-bash ! "langford 3"
+#+BEGIN_SRC bash
+langford 3
 #+END_SRC
 
 結果は以下の通りである．
@@ -24,8 +22,8 @@ d3 s1 s5
 #+END_EXAMPLE
 
 これをCNF式変換して sat13 の入力として与えるには以下のようにする．
-#+BEGIN_SRC scala
-bash ! "langford 3 | sat-dance | sat13"
+#+BEGIN_SRC bash
+langford 3 | sat-dance | sat13
 #+END_SRC
 
 結果は以下の通りである．
@@ -37,7 +35,7 @@ bash ! "langford 3 | sat-dance | sat13"
 これから解 "312132" が得られる．
 
 $\textit{langford}'(n)$ の場合は以下のようになる．
-#+BEGIN_SRC scala
-bash ! "langford 3 | sat-dance-heule | sat13"
+#+BEGIN_SRC bash
+langford 3 | sat-dance-heule | sat13
 #+END_SRC
 
