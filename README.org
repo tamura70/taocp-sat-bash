@@ -13,7 +13,6 @@ There were some errors during the compilation (see the following log file).  The
   - [[http://bach.istc.kobe-u.ac.jp/lect/taocp-sat/knuth/install.log]]
 
 These programs can be executed in [[http://jupyter.org][Jupyter]] notebooks on [[https://mybinder.org][Binder]] with bash kernel.
-  - https://mybinder.org/v2/gh/tamura70/taocp-sat-bash/master?urlpath=lab/tree/ (in Japanese)
   - https://mybinder.org/v2/gh/tamura70/taocp-sat-bash/master?urlpath=lab/tree/notebooks/index.ipynb (in Japanese)
 
 See the following web page for more details of how to run Knuth's programs.
